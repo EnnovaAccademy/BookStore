@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Academy.BookStore.Entities\Academy.BookStore.Entities.csproj" />
+      <ProjectReference Include="..\Academy.BookStore.Services.Contracts\Academy.BookStore.Services.Contracts.csproj" />
+    </ItemGroup>
+
+</Project>
