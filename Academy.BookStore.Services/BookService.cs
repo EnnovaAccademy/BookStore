@@ -15,7 +15,8 @@ namespace Academy.BookStore.Services
 
         public override IEnumerable<Book> GetAll()
         {
-            return _context.Books.ToList();
+
+            return _context.Books.Include(a => a.Author).Include(s => s.Stores).ToList();
         }
 
         public override Book GetById(int id)
