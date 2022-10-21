@@ -2,8 +2,7 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Academy.BookStore.App.Wpf"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:wpf="clr-namespace:Academy.BookStore.App.Wpf" d:DataContext="{d:DesignInstance Type=wpf:ViewModel}"
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="800">
     <DockPanel VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0">
@@ -31,16 +30,16 @@
             <StackPanel Grid.Column="1" HorizontalAlignment="Center">
                 <TextBlock FontSize="15" FontWeight="Bold" DockPanel.Dock="Top">Author Details</TextBlock>
                 <Label Content="First Name*" Margin="-5,0,0,-5"></Label>
-                <TextBox Grid.Row="1" Text="" VerticalAlignment="Top" Width="200"/>
+                <TextBox Grid.Row="1" Text="{Binding ElementName= BookList ,Path=SelectedItem.Author.FirstName}" VerticalAlignment="Top" Width="200"/>
                 <Label Content="Last Name*" Margin="-5,0,0,-5"></Label>
-                <TextBox Grid.Row="1" Text="" VerticalAlignment="Top" Width="200"/>
+                <TextBox Grid.Row="1" Text="{Binding ElementName= BookList ,Path=SelectedItem.Author.LastName}" VerticalAlignment="Top" Width="200"/>
             </StackPanel>
             <StackPanel Grid.Column="2" HorizontalAlignment="Center" Margin="0,0,0,10">
                 <TextBlock FontSize="15" FontWeight="Bold" DockPanel.Dock="Top">Store Details</TextBlock>
                 <Label Content="Store Name" Margin="-5,0,0,-5"></Label>
-                <TextBox Grid.Row="1" Text="" VerticalAlignment="Top" Width="200"/>
+                <TextBox Name="storeName" Grid.Row="1" VerticalAlignment="Top" Width="200" Text="{Binding ShowStore.Name}" />
                 <Label Content="Address" Margin="-5,0,0,-5"></Label>
-                <TextBox Grid.Row="1" Text="" VerticalAlignment="Top" Width="200"/>
+                <TextBox Grid.Row="1" VerticalAlignment="Top" Width="200" Text="{Binding ShowStore.Address}" />
             </StackPanel>
             <!-- Buttons -->
             <StackPanel Grid.ColumnSpan="3" Grid.Row="1" Margin="0,30,0,30" Orientation="Horizontal" HorizontalAlignment="Center" Height="30">
@@ -50,14 +49,27 @@
             </StackPanel>
             <!-- List -->
             <StackPanel Grid.ColumnSpan="3" Grid.Row="2" >
-                <ListView Name="BookList" ItemsSource="{Binding Books}">
+                <ListView Name="BookList" ItemsSource="{Binding Books}" MouseLeftButtonUp="BookList_MouseLeftButtonUp">
                     <ListView.View>
                         <GridView>
                             <GridViewColumn Header="BookId" DisplayMemberBinding="{Binding Id}"  Width="50"/>
                             <GridViewColumn Header="Title" DisplayMemberBinding="{Binding Title}"  Width="250"/>
                             <GridViewColumn Header="Publishing Year" DisplayMemberBinding="{Binding PublishingYear}"  Width="150"/>
                             <GridViewColumn Header="PagesCount" DisplayMemberBinding="{Binding PagesCount}"  Width="50"/>
-                            <GridViewColumn Header="AuthorsId" DisplayMemberBinding="{Binding AuthorId}"  Width="50"/>
+                            <GridViewColumn Header="Authors FirstName" DisplayMemberBinding="{Binding Author.FirstName}"  Width="100"/>
+                            <GridViewColumn Header="Authors LastName" DisplayMemberBinding="{Binding Author.LastName}"  Width="100"/>
+                            <GridViewColumn Header="StoreId">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <ComboBox
+                                                  Width="100"
+                                            
+                                                  ItemsSource="{Binding Stores}"
+                                                  SelectedItem="{Binding ShowStore}"
+                                                  DisplayMemberPath="Name" DropDownClosed="ComboBox_DropDownClosed" MouseLeftButtonUp="ComboBox_MouseLeftButtonUp" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
                         </GridView>
                     </ListView.View>
                 </ListView>

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Academy.BookStore.Entities.Models;
 using Academy.BookStore.Services;
 
 namespace Academy.BookStore.App.Wpf
@@ -22,12 +23,12 @@ namespace Academy.BookStore.App.Wpf
     public partial class MainWindow : Window
     {
         private readonly IBookService _bookService;
+        private ViewModel vm;
         public MainWindow(IBookService bookService)
         {
             InitializeComponent();
             _bookService = bookService ?? throw new ArgumentNullException(nameof(bookService));
-            ViewModel vm = new(_bookService);
-
+            vm = new(_bookService);
             DataContext = vm;
         }
 
@@ -46,6 +47,23 @@ namespace Academy.BookStore.App.Wpf
 
         }
 
+        private void ComboBox_DropDownClosed(object sender, EventArgs e)
+        {
 
+        }
+
+        private void BookList_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            var s = sender;
+            
+        }
+
+        private void ComboBox_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            var s = sender as ComboBox;
+            Store store = s.SelectedValue as Store;
+            vm.ShowStore = store;
+
+        }
     }
 }

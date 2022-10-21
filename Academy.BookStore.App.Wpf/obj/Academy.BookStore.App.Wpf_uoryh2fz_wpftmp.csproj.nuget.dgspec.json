@@ -1,0 +1,294 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.App.Wpf\\Academy.BookStore.App.Wpf.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.App.Wpf\\Academy.BookStore.App.Wpf.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.App.Wpf\\Academy.BookStore.App.Wpf.csproj",
+        "projectName": "Academy.BookStore.App.Wpf",
+        "projectPath": "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.App.Wpf\\Academy.BookStore.App.Wpf.csproj",
+        "packagesPath": "C:\\Users\\KepLenPC16\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.App.Wpf\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\KepLenPC16\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Entities\\Academy.BookStore.Entities.csproj": {
+                "projectPath": "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Entities\\Academy.BookStore.Entities.csproj"
+              },
+              "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Services.Contracts\\Academy.BookStore.Services.Contracts.csproj": {
+                "projectPath": "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Services.Contracts\\Academy.BookStore.Services.Contracts.csproj"
+              },
+              "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Services\\Academy.BookStore.Services.csproj": {
+                "projectPath": "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Services\\Academy.BookStore.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Entities\\Academy.BookStore.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Entities\\Academy.BookStore.Entities.csproj",
+        "projectName": "Academy.BookStore.Entities",
+        "projectPath": "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Entities\\Academy.BookStore.Entities.csproj",
+        "packagesPath": "C:\\Users\\KepLenPC16\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\KepLenPC16\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Services.Contracts\\Academy.BookStore.Services.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Services.Contracts\\Academy.BookStore.Services.Contracts.csproj",
+        "projectName": "Academy.BookStore.Services.Contracts",
+        "projectPath": "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Services.Contracts\\Academy.BookStore.Services.Contracts.csproj",
+        "packagesPath": "C:\\Users\\KepLenPC16\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Services.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\KepLenPC16\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Entities\\Academy.BookStore.Entities.csproj": {
+                "projectPath": "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Entities\\Academy.BookStore.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Services\\Academy.BookStore.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Services\\Academy.BookStore.Services.csproj",
+        "projectName": "Academy.BookStore.Services",
+        "projectPath": "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Services\\Academy.BookStore.Services.csproj",
+        "packagesPath": "C:\\Users\\KepLenPC16\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\KepLenPC16\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Entities\\Academy.BookStore.Entities.csproj": {
+                "projectPath": "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Entities\\Academy.BookStore.Entities.csproj"
+              },
+              "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Services.Contracts\\Academy.BookStore.Services.Contracts.csproj": {
+                "projectPath": "C:\\Users\\KepLenPC16\\Downloads\\Academy.Store.App.Console\\Academy.Store.App.Console\\Academy.BookStore.Services.Contracts\\Academy.BookStore.Services.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

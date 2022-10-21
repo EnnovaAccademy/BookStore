@@ -5,6 +5,8 @@ using System.Linq;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
+using System.Windows.Documents.DocumentStructures;
 using Academy.BookStore.Entities.Models;
 using Academy.BookStore.Services;
 
@@ -14,15 +16,32 @@ namespace Academy.BookStore.App.Wpf
     {
 
         public List<Book> books;
+        public List<Store> stores;
         public ViewModel(IBookService bs)
         {
             books = (List<Book>)bs.GetAll();
+            var list = bs.GetAll();
+
+            ComboBox comboBox = new ComboBox();
+        }
+
+        private Store _showStore;
+        public Store ShowStore
+        {
+            get { return _showStore; }
+            set { _showStore = value; OnPropertyChanged(nameof(ShowStore)); }
         }
 
         public List<Book> Books
         {
             get { return books; }
             set { books = value; }
+        }
+
+        public List<Store> Stores
+        {
+            get { return stores; }
+            set { stores = value; }
         }
 
         private string book_Title;
@@ -35,6 +54,7 @@ namespace Academy.BookStore.App.Wpf
                 OnPropertyChanged(nameof(Book_Title));
             }
         }
+
 
 
         private string bookPublishingYear;
