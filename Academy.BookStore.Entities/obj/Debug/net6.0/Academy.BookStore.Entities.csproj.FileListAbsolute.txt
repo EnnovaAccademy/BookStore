@@ -1,0 +1,15 @@
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Entities\bin\Debug\net6.0\appsettings.json
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Entities\bin\Debug\net6.0\Academy.BookStore.Entities.deps.json
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Entities\bin\Debug\net6.0\Academy.BookStore.Entities.runtimeconfig.json
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Entities\bin\Debug\net6.0\Academy.BookStore.Entities.dll
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Entities\bin\Debug\net6.0\Academy.BookStore.Entities.pdb
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Entities\obj\Debug\net6.0\Academy.BookStore.Entities.csproj.AssemblyReference.cache
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Entities\obj\Debug\net6.0\Academy.BookStore.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Entities\obj\Debug\net6.0\Academy.BookStore.Entities.AssemblyInfoInputs.cache
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Entities\obj\Debug\net6.0\Academy.BookStore.Entities.AssemblyInfo.cs
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Entities\obj\Debug\net6.0\Academy.BookStore.Entities.csproj.CoreCompileInputs.cache
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Entities\obj\Debug\net6.0\Academy.BookStore.Entities.dll
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Entities\obj\Debug\net6.0\refint\Academy.BookStore.Entities.dll
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Entities\obj\Debug\net6.0\Academy.BookStore.Entities.pdb
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Entities\obj\Debug\net6.0\Academy.BookStore.Entities.genruntimeconfig.cache
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Entities\obj\Debug\net6.0\ref\Academy.BookStore.Entities.dll
