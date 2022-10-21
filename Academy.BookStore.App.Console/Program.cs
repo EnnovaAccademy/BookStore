@@ -13,9 +13,8 @@ namespace Academy.Students.App
     {
         static void Main(string[] args)
         {
-            using var context = new BookStoreContext(); 
+            using var context = new BookStoreContext();
             context.Database.Migrate();
-            Console.WriteLine($"How many books: {context.Books.Count()}");
             //var book = context.Books.FirstOrDefault(x => x.Title == "My name is Joe Black");
             //if (book == null)
             //{
@@ -33,36 +32,27 @@ namespace Academy.Students.App
             //    context.Books.Add(book);
             //    context.SaveChanges();
             //}
-            
+
             //Console.WriteLine($"How many books: {context.Books.Count()}");
 
             AuthorService _as = new(context);
             BookService bs = new(context);
             StoreService ss = new(context);
 
-            var authors = _as.GetAll();
-            var stores = ss.GetAll();
-            //foreach (Author author in authors)
-            //{
-            //    Console.WriteLine(author.FirstName + " " + author.LastName);
-            //}
-            Book book = bs.GetById(5);
-            Console.WriteLine(book.Author.FirstName + " " + book.Author.LastName);
-            
-            Store s = ss.GetById(1);
-            Console.WriteLine(s.Id + " " + s.Name + " " + s.Address);
-            context.SaveChanges();
-            if (book.Stores == null)
+
+            var book = bs.GetAll();
+
+            foreach (var item in book)
             {
-                Console.WriteLine("Ciao carino");
+                Console.WriteLine(item.Author.FirstName);
+                if (item.Id == 5)
+                {
+                    foreach (var item2 in item.Stores)
+                    {
+                        Console.WriteLine(item2.Address);
+                    }
+                }
             }
-            foreach (Store sium in book.Stores)
-            {
-                Console.WriteLine(sium.Address);
-            }
-
-
-
         }
     }
 }
