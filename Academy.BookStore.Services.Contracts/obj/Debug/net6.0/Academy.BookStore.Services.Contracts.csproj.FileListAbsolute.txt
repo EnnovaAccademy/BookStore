@@ -1,0 +1,16 @@
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Services.Contracts\bin\Debug\net6.0\appsettings.json
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Services.Contracts\bin\Debug\net6.0\Academy.BookStore.Services.Contracts.deps.json
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Services.Contracts\bin\Debug\net6.0\Academy.BookStore.Services.Contracts.dll
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Services.Contracts\bin\Debug\net6.0\Academy.BookStore.Services.Contracts.pdb
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Services.Contracts\bin\Debug\net6.0\Academy.BookStore.Entities.dll
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Services.Contracts\bin\Debug\net6.0\Academy.BookStore.Entities.pdb
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Services.Contracts\obj\Debug\net6.0\Academy.BookStore.Services.Contracts.csproj.AssemblyReference.cache
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Services.Contracts\obj\Debug\net6.0\Academy.BookStore.Services.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Services.Contracts\obj\Debug\net6.0\Academy.BookStore.Services.Contracts.AssemblyInfoInputs.cache
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Services.Contracts\obj\Debug\net6.0\Academy.BookStore.Services.Contracts.AssemblyInfo.cs
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Services.Contracts\obj\Debug\net6.0\Academy.BookStore.Services.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Services.Contracts\obj\Debug\net6.0\Academy.BookStore.Services.Contracts.csproj.CopyComplete
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Services.Contracts\obj\Debug\net6.0\Academy.BookStore.Services.Contracts.dll
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Services.Contracts\obj\Debug\net6.0\refint\Academy.BookStore.Services.Contracts.dll
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Services.Contracts\obj\Debug\net6.0\Academy.BookStore.Services.Contracts.pdb
+C:\Users\KepLenPC16\Downloads\Academy.Store.App.Console\Academy.Store.App.Console\Academy.BookStore.Services.Contracts\obj\Debug\net6.0\ref\Academy.BookStore.Services.Contracts.dll
